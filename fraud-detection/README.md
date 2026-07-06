@@ -1,5 +1,7 @@
 # Credit Card Fraud Detection — GPU Graph Methods (RAPIDS)
 
+*(한글 번역: [README.ko.md](README.ko.md))*
+
 Dataset: [Kaggle Credit Card Fraud (ULB)](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) — 284,807 transactions, 492 fraud (0.17%), features `V1`–`V28` (PCA-anonymized), `Amount`, `Time`.
 
 Stack: cuDF / cuML / cuGraph (RAPIDS) on WSL2, RTX 4060. Full report with plots: `results/report.html`.
